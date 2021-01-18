@@ -1,6 +1,6 @@
-let orderNum1= prompt("Enter hare first number");
-let orderNum2= prompt("Enter hare second number");
-let orderNum3= prompt("Enter hare third number");
+let orderNum1= Number(prompt("Enter here first number"));
+let orderNum2= Number(prompt("Enter here second number"));
+let orderNum3= Number(prompt("Enter here third number"));
 if (orderNum1>orderNum2 && orderNum2>orderNum3) {
      alert(orderNum1 + "," + orderNum2 + "," + orderNum3)
 }else if(orderNum1>orderNum3 && orderNum3>orderNum2){
